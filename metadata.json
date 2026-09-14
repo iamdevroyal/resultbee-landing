@@ -1,0 +1,7 @@
+{
+  "name": "ResultBee",
+  "description": "Custom grading and report card management platform built for Nigerian schools, supporting customizable CA splits, WAEC scales, offline score entry, and automated report card publishing.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
