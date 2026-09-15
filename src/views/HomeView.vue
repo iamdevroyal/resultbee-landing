@@ -197,8 +197,10 @@ const handleNewsletterSubmit = () => {
       <div class="relative max-w-[1280px] mx-auto flex flex-col items-center">
         
         <!-- Tag / Overline -->
-        <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-surface-container-lowest/10 backdrop-blur-md text-primary-fixed mb-6 shadow-sm border border-primary-fixed/20 animate-hero-tag animate-float-slow">
-          <span class="font-label-xs text-label-xs tracking-wider">Custom Grading Engine for Nigerian Schools</span>
+        <div class="inline-flex items-center gap-1.5 sm:gap-2 px-2.5 sm:px-4 py-1 sm:py-1.5 rounded-full bg-surface-container-lowest/10 backdrop-blur-md text-primary-fixed mb-6 shadow-sm border border-primary-fixed/20 animate-hero-tag animate-float-slow">
+          <span class="font-label-sm text-[10px] sm:text-label-sm tracking-wider">
+            Custom Grading Engine for Nigerian Schools
+          </span>
         </div>
 
         <!-- Headline & Subheadline -->
