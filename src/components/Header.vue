@@ -41,9 +41,6 @@ const handleDemoClick = () => {
         @click.prevent="handlePageClick('home')" 
         class="flex items-center gap-2.5 group cursor-pointer select-none"
       >
-        <div class="w-9 h-9 rounded-xl bg-primary-fixed flex items-center justify-center text-primary shadow-[0_2px_10px_rgba(217,119,6,0.35)] transition-transform group-hover:scale-105 duration-200">
-          <span class="material-symbols-outlined text-[22px]">hive</span>
-        </div>
         <span class="font-headline-sm text-[20px] text-surface-container-lowest tracking-tight">
           Result<span class="text-primary-fixed">Bee</span>
         </span>
@@ -101,7 +98,7 @@ const handleDemoClick = () => {
         </button>
         <button 
           @click="handleOnboardingClick" 
-          class="px-4 sm:px-5 py-2 sm:py-2.5 rounded-full bg-primary-fixed text-on-primary-fixed font-headline-sm text-label-md shadow-[0_4px_16px_rgba(217,119,6,0.38)] hover:bg-primary-fixed-dim active:scale-98 transition-all cursor-pointer flex items-center gap-1"
+          class="px-4 sm:px-3 py-2 sm:py-2.5 rounded-full bg-primary-fixed text-on-primary-fixed font-headline-sm text-label-md shadow-[0_4px_16px_rgba(217,119,6,0.38)] hover:bg-primary-fixed-dim active:scale-98 transition-all cursor-pointer flex items-center gap-1"
         >
           <span>Get Started</span>
           <span class="material-symbols-outlined text-[18px]">arrow_forward</span>
