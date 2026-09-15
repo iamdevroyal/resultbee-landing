@@ -198,7 +198,7 @@ const handleNewsletterSubmit = () => {
         
         <!-- Tag / Overline -->
         <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-surface-container-lowest/10 backdrop-blur-md text-primary-fixed mb-6 shadow-sm border border-primary-fixed/20 animate-hero-tag animate-float-slow">
-          <span class="font-label-sm text-label-sm tracking-wider uppercase">Custom Grading Engine for Nigerian Schools</span>
+          <span class="font-label-sm text-label-xs sm:text-sm tracking-wider uppercase">Custom Grading Engine for Nigerian Schools</span>
         </div>
 
         <!-- Headline & Subheadline -->
